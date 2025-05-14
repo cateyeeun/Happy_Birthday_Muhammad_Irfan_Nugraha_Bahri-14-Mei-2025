@@ -23,16 +23,16 @@ body {
 }
 
 .title h1 {
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 1.84rem;
-    padding-top: 1.5rem;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.84rem;
+  padding-top: 1.5rem;
 }
 
 .title p {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
-  padding-top: 0.8rem;
+  padding-top: 1rem;
   color: var(--abu);
   word-spacing: 3px;
 }
@@ -43,7 +43,7 @@ body {
 
 .italic {
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 
 figcaption {
@@ -91,13 +91,13 @@ figure {
 
 /* laptop */
 @media (max-width: 1024px) {
-    body {
-      padding: 1% 14%;
-    }
+  body {
+    padding: 1% 14%;
+  }
 }
 
 @media (max-width: 800px) {
-    body {
-      padding: 1% 8%;
-    }
+  body {
+    padding: 1% 8%;
+  }
 }
