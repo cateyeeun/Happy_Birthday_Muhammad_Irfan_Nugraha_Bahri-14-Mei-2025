@@ -15,7 +15,7 @@ body {
   padding: 1% 24%;
   /* font-family: "Charis SIL", serif; */
   font-family: serif;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: rgb(41, 40, 40);
   text-align: start;
   font-weight: 400;
@@ -43,7 +43,7 @@ body {
 
 .italic {
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 figcaption {
