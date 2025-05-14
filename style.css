@@ -1,0 +1,106 @@
+:root {
+  --abu: rgb(133, 131, 131);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  padding: 1% 24%;
+  font-family: "Charis SIL", serif;
+  font-size: 1.1rem;
+  color: rgb(41, 40, 40);
+  text-align: justify;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.title h1 {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 1.84rem;
+    padding-top: 1.5rem;
+    text-align: start;
+}
+
+.title p {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding-top: 0.8rem;
+  color: var(--abu);
+  word-spacing: 3px;
+}
+
+.intro p {
+  padding: 3rem 0;
+  font-style: italic;
+}
+
+.italic {
+  font-style: italic;
+}
+
+figcaption {
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--abu);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+.content0,
+.content1,
+.content2,
+.content3,
+.content4,
+.end,
+.content5,
+.content6 {
+  padding: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content0 h2 {
+  font-size: 1.1rem;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Rasio 16:9 */
+  height: 0;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* laptop */
+@media (max-width: 1024px) {
+    body {
+      padding: 1% 14%;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+      padding: 1% 8%;
+    }
+}
