@@ -63,9 +63,8 @@ figure {
 .content3,
 .content4,
 .end,
-.content5,
 .content6 {
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -75,6 +74,7 @@ figure {
 
 .content0 h2 {
   font-size: 1.1rem;
+  text-align: start;
 }
 
 .video-wrapper {
