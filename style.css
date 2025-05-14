@@ -15,7 +15,7 @@ body {
   padding: 1% 24%;
   /* font-family: "Charis SIL", serif; */
   font-family: serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: rgb(41, 40, 40);
   text-align: start;
   font-weight: 400;
@@ -32,7 +32,7 @@ body {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 0.85rem;
   font-weight: 500;
-  padding-top: 1.1rem;
+  padding-top: 0.8rem;
   color: var(--abu);
   word-spacing: 3px;
 }
@@ -49,7 +49,7 @@ body {
 figcaption {
   font-family: "Merriweather Sans", sans-serif;
   color: var(--abu);
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   text-align: center;
 }
 
