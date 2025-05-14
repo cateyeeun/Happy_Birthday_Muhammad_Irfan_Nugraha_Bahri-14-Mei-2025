@@ -38,11 +38,11 @@ body {
 
 .intro p {
   padding: 3rem 0;
-  font-style: italic;
 }
 
 .italic {
   font-style: italic;
+  font-size: 1.1rem;
 }
 
 figcaption {
